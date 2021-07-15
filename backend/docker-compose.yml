@@ -1,0 +1,18 @@
+version: '3.1'
+
+services:
+
+  db:
+    container_name: bernardo
+    image: mysql:5.7.26
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports: 
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: actionsys
+      MYSQL_ROOT_PASSWORD: bernardo
+      MYSQL_USER: bernardo
+      MYSQL_PASSWORD: bernardo
+      TZ: America/Sao_Paulo
+      
