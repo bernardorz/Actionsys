@@ -52,6 +52,7 @@ export const EmployeeContainer = styled.div`
     }
 
     label {
+      color: ${props => props.theme.colors.fontColor};
       margin-top: 12px;
     }
 
