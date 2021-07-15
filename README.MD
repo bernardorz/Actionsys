@@ -53,7 +53,7 @@ $ yarn
 
 $ yarn up
 ```
-
+>⚠️ Espere o docker criar o container e baixar a imagem para rodar a migration.
 ```bash
 # Rode a Migration para criar a tabela funcionarios no banco.
 
@@ -88,8 +88,11 @@ $ cd frontend
 $ yarn
 ```
 
-> ⚠️⚠️ Devido a um bug do eslint, antes de inicializar o front end você deve entrar em cada arquivo .ts e .tsx e digitar ctrl + s
-> para o eslint não gerar nenhum erro ⚠️⚠️.
+> ⚠️⚠️ Por padrão o fim de linha o fim da seqüência de linha é CRLF para não ter erros no front end você deve verificar em cada arquivo(apenas da pasta frontend) .ts e .tsx se etão em LF, caso contrario selecionar LF no cando direito inferior no vs code⚠️⚠️.
+
+<p align="center">
+ <img width="100%" src="https://media.discordapp.net/attachments/790018464881573889/865230184701362176/Captura_de_tela_2021-07-15_105536.png">
+</p>
 
 ```bash
 # Pronto, agora você já pode iniciar o Front-End para isso você deve digitar.
