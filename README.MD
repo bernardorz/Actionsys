@@ -88,6 +88,8 @@ $ cd frontend
 $ yarn
 ```
 
+> ⚠️ Devido a um bug do eslint antes de inicializar o projeto você deve entrar em cada arquivo .ts e .tsx e digitar ctrl + s
+> para o eslint não gerar nenhum erro ⚠️.
 
 ```bash
 # Pronto, agora você já pode iniciar o Front-End para isso você deve digitar.
