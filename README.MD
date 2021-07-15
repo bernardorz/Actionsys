@@ -88,7 +88,7 @@ $ cd frontend
 $ yarn
 ```
 
-> ⚠️⚠️ Por padrão o fim da seqüência de linha é CRLF para não ter erros no front end você deve verificar em cada arquivo(apenas da pasta frontend) .ts e .tsx se etão em LF, caso contrario selecionar LF no cando direito inferior no vs code⚠️⚠️.
+> ⚠️⚠️ Por padrão o fim da sequência de linha é CRLF, para não ter erros no front end você deve verificar em cada arquivo(apenas da pasta frontend) .ts e .tsx se etão em LF, caso contrario selecionar LF no cando direito inferior no vs code⚠️⚠️.
 
 <p align="center">
  <img width="100%" src="https://media.discordapp.net/attachments/790018464881573889/865230184701362176/Captura_de_tela_2021-07-15_105536.png">
